@@ -1,4 +1,3 @@
-package maltepe.edu.tr;
 public class Main {
 
 
