@@ -1,6 +1,6 @@
-public class student extends person{
+public class Student extends Person {
 
-    student(String name, int age)
+    Student(String name, int age)
     {
         super(name, age);
     }

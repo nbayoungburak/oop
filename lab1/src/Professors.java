@@ -1,4 +1,4 @@
-public class Professors extends person {
+public class Professors extends Person {
 
     Professors(String name, int age)
     {
