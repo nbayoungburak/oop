@@ -1,14 +1,14 @@
-public class Professors {
+public class Professors extends person {
 
-String prof_name;
+    Professors(String name, int age)
+    {
+        super(name, age);
+    }
 
-Professors(String name){
-    prof_name=name;
-}
-void teaches(){
-
-    System.out.println("prof "+ prof_name);
-}
+    public void teaching()
+    {
+        System.out.println(name + " is teaching OOP to his students.");
+    }
 
 
 }

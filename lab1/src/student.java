@@ -1,21 +1,14 @@
-public class student {
+public class student extends person{
 
-    String std_name;
-
-    student(String name){
-        std_name=name;
-    }
-    void learns(){
-
-        System.out.println("student"+ std_name);
+    student(String name, int age)
+    {
+        super(name, age);
     }
 
-
-
-
-
-
-
+    public void learning()
+    {
+        System.out.println(name + " is learning OOP.");
+    }
 }
 
 
