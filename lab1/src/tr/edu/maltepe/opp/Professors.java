@@ -1,3 +1,5 @@
+package tr.edu.maltepe.opp;
+
 public class Professors extends Person {
 
     Professors(String name, int age)
@@ -9,6 +11,7 @@ public class Professors extends Person {
     {
         System.out.println(name + " is teaching OOP to his students.");
     }
-
-
+    public String getName() {
+        return name;
+    }
 }

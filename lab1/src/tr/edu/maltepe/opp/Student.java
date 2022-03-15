@@ -1,3 +1,5 @@
+package tr.edu.maltepe.opp;
+
 public class Student extends Person {
 
     Student(String name, int age)
@@ -9,6 +11,13 @@ public class Student extends Person {
     {
         System.out.println(name + " is learning OOP.");
     }
+
+    public String getName() {
+        return name;
+    }
+
+
 }
+
 
 

@@ -1,3 +1,4 @@
+package tr.edu.maltepe.opp;
 
 import java.util.Scanner;
 public class Main {
