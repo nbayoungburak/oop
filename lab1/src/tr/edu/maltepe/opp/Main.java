@@ -30,5 +30,6 @@ public class Main {
             student1.learning();
 
         }
+
     }
 }
