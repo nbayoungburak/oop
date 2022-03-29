@@ -7,14 +7,13 @@ public class Student extends Person {
         super(name, age);
     }
 
+
     public void learning()
     {
+
         System.out.println(name + " is learning OOP.");
     }
 
-    public String getName() {
-        return name;
-    }
 
 
 }

@@ -2,8 +2,8 @@ package tr.edu.maltepe.opp;
 
 public class Person {
 
-    private String name;
-    private int age;
+    public String name;
+    public int age;
 
     Person(String name, int age)
     {
@@ -11,9 +11,9 @@ public class Person {
         this.age = age;
     }
 
-    public String getName(){
-        return name;
-    }
+
+
+
 
     public void Introduce(){System.out.println("My name is " + this.name +" I am "+ this.age +" years old");}
 
