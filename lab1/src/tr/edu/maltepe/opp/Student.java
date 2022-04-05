@@ -1,22 +1,16 @@
 package tr.edu.maltepe.opp;
 
-public class Student extends Person {
+public class Student extends Person
+{
 
-    Student(String name, int age)
+
+    public Student() {}
+    public Student(String name, int id) {super(name, id);}
+    public Student(String name, int id, boolean isInSportCenter, boolean isInSwimmingPool, boolean isInFootballField)
     {
-        super(name, age);
-    }
-
-
-    public void learning()
-    {
-
-        System.out.println(name + " is learning OOP.");
+        super(name, id, isInSportCenter, isInSwimmingPool, isInFootballField);
     }
 
 
 
 }
-
-
-
